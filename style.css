@@ -1,1 +1,99 @@
+/* AgriSathi AI - Website Design */
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f1;
+    color: #263528;
+}
+
+/* Header */
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Main sections */
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #2e7d32;
+    font-size: 28px;
+}
+
+/* Information cards */
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Text */
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile phone design */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 25px 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
